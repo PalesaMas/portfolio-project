@@ -20,6 +20,7 @@ h5 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -40,6 +41,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+
   color: #272142;
 }
 .hero h2 {
@@ -65,8 +67,27 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-
+.project-description {
+  padding: 0px 60px;
+}
 .image-description {
   background: var(--secondary-color);
   padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    text-align: center;
+  }
 }
