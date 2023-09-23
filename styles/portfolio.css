@@ -109,8 +109,7 @@ p {
   background: var(--secondary-color);
 }
 .logo {
-  max-width: 150px;
-  height: 41.82px;
+  max-height: 50px;
 }
 nav {
   padding: 20px;
