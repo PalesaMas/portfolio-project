@@ -113,6 +113,16 @@ p {
   padding: 0px 60px;
   background: var(--secondary-color);
 }
+
+.project-links {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+.project-links:hover {
+  color: var(--branding-color);
+}
+
 .logo {
   max-height: 50px;
 }
@@ -202,6 +212,10 @@ footer .social-links a:hover {
   }
 
   nav a {
+    font-size: 13px;
+  }
+
+  footer p {
     font-size: 13px;
   }
 }
