@@ -214,6 +214,7 @@ footer .social-links a:hover {
   nav a {
     font-size: 12px;
     margin: 5px;
+    margin-left: 5px;
   }
 
   footer p {
