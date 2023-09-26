@@ -187,6 +187,18 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.contact-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  transition: all 10ms ease-in-out;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
