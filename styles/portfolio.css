@@ -108,6 +108,11 @@ p {
   margin: 30px;
 }
 
+.content a {
+  color: var(--branding-color);
+  text-decoration: underline;
+}
+
 .work-image {
   padding: 0px 60px;
   background: var(--secondary-color);
