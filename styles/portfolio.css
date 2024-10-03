@@ -104,10 +104,6 @@ p {
   padding: 30px 0px;
 }
 
-.content {
-  margin: 30px;
-}
-
 .work-image {
   padding: 0px 60px;
   background: var(--secondary-color);
