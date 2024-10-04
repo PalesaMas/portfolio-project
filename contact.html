@@ -37,9 +37,9 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a href="/" title="Homepage" class="navbar-brand">
           <img
             src="images/logo.png"
             class="logo d-none d-md-block rounded"
@@ -51,83 +51,97 @@
             alt="Palesa small logo"
           />
         </a>
-        <ul>
-          <li><a href="/" title="Homepage">Home</a></li>
-          <li>
-            <a href="/about.html" title="About Palesa">About</a>
-          </li>
-          <li><a href="/work.html" title="Palesa's work">Work</a></li>
-          <li class="active">
-            <a href="/contact.html" title="Contact Palesa">Contact</a>
-          </li>
-        </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/work.html" class="nav-link">Work</a>
+            </li>
+            <li class="nav-item active">
+              <a href="/contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
+    </div>
 
-      <div class="content-container container">
-        <div class="content">
-          <div class="contact-links">
-            <h1 class="mb-4">Get in touch and let's collaborate!</h1>
+    <div class="content-container container">
+      <div class="content">
+        <div class="contact-links">
+          <h1 class="mb-4">Get in touch and let's collaborate!</h1>
 
-            <h3>Email</h3>
-            <a
-              href="mailto:palesa@modelfitness.co.za"
-              target="_blank"
-              title="Email Address"
+          <h3>Email</h3>
+          <a
+            href="mailto:palesa@modelfitness.co.za"
+            target="_blank"
+            title="Email Address"
+          >
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <p>
+            <a href="mailto:palesa.masiteng@gmail.com" title="Palesa's Email"
+              >palesa.masiteng@gmail.com</a
             >
-              <i class="fa-regular fa-envelope"></i>
-            </a>
-            <p>
-              <a href="mailto:palesa.masiteng@gmail.com" title="Palesa's Email"
-                >palesa.masiteng@gmail.com</a
-              >
-            </p>
-            <h3>Instagram</h3>
-            <p>
-              <a
-                href="https://www.instagram.com/palesamasiteng/"
-                target="_blank"
-                title="Instagram Profile"
-              >
-                <i class="fa-brands fa-instagram"></i
-              ></a>
-              <br />
-              <a
-                href="https://www.instagram.com/palesamasiteng/"
-                target="_blank"
-                title="Instagram Profile"
-                >@palesamasiteng</a
-              >
-            </p>
-            <h3>Linkedin</h3>
-            <p>
-              <a
-                href="https://www.linkedin.com/in/palesa-masiteng-a2561125/"
-                target="_blank"
-                title="Linkedin Profile"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-              <br />
-              <a
-                href="https://www.linkedin.com/in/palesa-masiteng-a2561125/"
-                target="_blank"
-                title="Linkedin Profile"
-                >@palesamasiteng</a
-              >
-            </p>
-          </div>
+          </p>
+          <h3>Instagram</h3>
+          <p>
+            <a
+              href="https://www.instagram.com/palesamasiteng/"
+              target="_blank"
+              title="Instagram Profile"
+            >
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+            <br />
+            <a
+              href="https://www.instagram.com/palesamasiteng/"
+              target="_blank"
+              title="Instagram Profile"
+              >@palesamasiteng</a
+            >
+          </p>
+          <h3>Linkedin</h3>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/palesa-masiteng-a2561125/"
+              target="_blank"
+              title="Linkedin Profile"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <br />
+            <a
+              href="https://www.linkedin.com/in/palesa-masiteng-a2561125/"
+              target="_blank"
+              title="Linkedin Profile"
+              >@palesamasiteng</a
+            >
+          </p>
         </div>
       </div>
-      <footer>
-        <p class="text-center mt-5">
-          👩🏽‍💻 This website was coded by Palesa Masiteng, and it is
-          <a
-            href="https://github.com/PalesaMas/portfolio-project"
-            title="Github Open-Source Code"
-            target="_blank"
-            >open-sourced.
-          </a>
-        </p>
-      </footer>
     </div>
+    <footer>
+      <p class="text-center mt-5">
+        👩🏽‍💻 This website was coded by Palesa Masiteng, and it is
+        <a
+          href="https://github.com/PalesaMas/portfolio-project"
+          title="Github Open-Source Code"
+          target="_blank"
+          >open-sourced.
+        </a>
+      </p>
+    </footer>
   </body>
 </html>

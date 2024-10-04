@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Palesa is a front-end engineer based South Africa. With a passion for brand building as well as software engineering."
+      content="Palesa is a front-end engineer based in South Africa with a passion for brand building as well as software engineering."
     />
     <title>Front-end developer - Palesa Masiteng</title>
     <link
@@ -37,9 +37,9 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a href="/" title="Homepage" class="navbar-brand">
           <img
             src="images/logo.png"
             class="logo d-none d-md-block rounded"
@@ -51,14 +51,33 @@
             alt="Palesa small logo"
           />
         </a>
-        <ul>
-          <li class="active"><a href="/" title="Homepage">Home</a></li>
-          <li><a href="/about.html" title="About Palesa">About</a></li>
-          <li><a href="/work.html" title="Palesa's work">Work</a></li>
-          <li><a href="/contact.html" title="Contact Palesa">Contact</a></li>
-        </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/work.html" class="nav-link">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
+
     <div class="hero">
       <p>PORTFOLIO</p>
       <h1>Palesa Masiteng</h1>
@@ -71,46 +90,48 @@
         >
       </div>
     </div>
+
     <p class="text-center m-5">
       The following featured projects are the most recent work to showcase on my
       portfolio.
     </p>
+
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <div class="image-description">
-            <img src="images/divine.png" class="img-fluid" alt="divine" />
+            <img
+              src="images/fracprop.png"
+              class="img-fluid"
+              alt="Fracprop Project"
+            />
           </div>
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">FracProp Website Developement</h2>
+            <h2 class="mb-5">FracProp Project</h2>
             <p class="mb-5 text-muted">
               As a Front-End Developer on the FRACPROP project, I played a
               pivotal role in crafting a user-centric interface for a
               cutting-edge fintech platform. By leveraging the latest web
               technologies, I developed responsive and visually engaging
               components that enhance user experience and drive engagement. My
-              contributions included optimizing site performance and ensuring
-              cross-browser compatibility, all while maintaining a clean and
-              modern aesthetic. Collaborating closely with designers and backend
-              developers, I helped translate complex financial data into
-              intuitive visualizations, empowering users to make informed
-              decisions with ease. This project has not only honed my technical
-              skills but also deepened my understanding of the fintech
-              landscape, positioning me to deliver exceptional solutions in this
-              dynamic field
+              contributions included optimising site performance and ensuring
+              cross-browser compatibility.
             </p>
-            <a
-              href="https://fracpropstyleguide.netlify.app"
-              target="_blank"
-              class="btn btn-branding-outline"
-              title="Weather App"
-              >Launch Project</a
-            >
+            <div>
+              <a
+                href="https://fracpropstyleguide.netlify.app"
+                target="_blank"
+                class="btn btn-branding-outline"
+                title="Launch FracProp Project"
+                >Launch Project</a
+              >
+            </div>
           </div>
         </div>
       </div>
+
       <div class="row mb-5">
         <div class="col">
           <div class="project-description">
@@ -119,57 +140,58 @@
               Weatherify is a dynamic weather app powered by APIs, delivering
               live weather updates for any city worldwide. With an intuitive
               interface, it offers comprehensive features including real-time
-              data and global coverage. Weatherify ensures users stay informed
-              and prepared. The app is accurate with a user-centric design and
-              provides a weekly weather forecast. Experience the power of
-              Weatherify and never be caught off guard by the weather again.
+              data and global coverage.
             </p>
             <a
               href="https://lucent-daffodil-b3e9c4.netlify.app/#"
               target="_blank"
               class="btn btn-branding-outline"
-              title="Weather App"
+              title="Launch Weatherify Project"
               >Launch Project</a
             >
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <div class="image-description">
-            <img src="images/weather.png" class="img-fluid" alt="weather" />
+            <img src="images/weather.png" class="img-fluid" alt="Weather App" />
           </div>
         </div>
       </div>
+
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <div class="image-description">
-            <img src="images/fitness.png" class="img-fluid" alt="fitness" />
+            <img
+              src="images/fitness.png"
+              class="img-fluid"
+              alt="Model Fitness"
+            />
           </div>
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Web development: Operations Manager</h2>
+            <h2 class="mb-5">Perfomance Marketing Executive</h2>
             <p class="mb-5 text-muted">
-              Transforming visions into reality, I successfully led the
-              development of Model Fitness, a dynamic website designed to
-              enhance user engagement and drive conversions. By seamlessly
-              integrating user-friendly features with a sleek design, I
-              delivered a responsive platform that adapts beautifully across all
-              devices. Utilizing the latest web technologies, I ensured optimal
-              performance and a smooth user experience. This project not only
-              showcases my technical prowess but also my commitment to crafting
-              solutions that elevate brands and resonate with their audience.
+              Transforming visions into reality, I led the development of Model
+              Fitness, a dynamic e-commerce website designed to enhance user
+              engagement and drive conversions. By integrating user-friendly
+              features and managing the CMS, I ensured a seamless project
+              execution.
             </p>
             <a
               href="https://modelfitness.co.za/"
               target="_blank"
               class="btn btn-branding-outline"
-              title="Fitness and Wellness Website "
+              title="Launch Model Fitness"
               >Launch Project</a
             >
           </div>
         </div>
       </div>
-      <footer>
+    </div>
+
+    <footer class="py-4">
+      <div class="container text-center">
         <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
@@ -188,46 +210,35 @@
             >
           </div>
         </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a
-            href="mailto:palesa.masiteng@gmail.com"
-            class="email-link"
-            title="Email Palesa"
-            >palesa.masiteng@gmail.com</a
-          >
-        </div>
-        <div class="social-links text-center mb-5">
+        <a href="mailto:palesa.masiteng@gmail.com" class="email-link"
+          >palesa.masiteng@gmail.com</a
+        >
+        <div class="social-links my-4">
           <a
             href="https://www.instagram.com/palesamasiteng/"
             target="_blank"
-            title="Instagram Profile"
-          >
-            <i class="fa-brands fa-instagram"></i
+            title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a
-            href="https://github.com/palesamas"
-            target="_blank"
-            title="Github Profile"
-          >
-            <i class="fa-brands fa-github"></i
+          <a href="https://github.com/palesamas" target="_blank" title="Github"
+            ><i class="fa-brands fa-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/palesa-masiteng-a2561125/"
             target="_blank"
-            title="Linkedin Profile"
+            title="LinkedIn"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
         </div>
-        <p class="text-center mt-5">
+        <p>
           👩🏽‍💻 This website was coded by Palesa Masiteng, and it is
           <a
             href="https://github.com/PalesaMas/portfolio-project"
-            title="Github Open-Source Code"
             target="_blank"
-            >open-sourced.
-          </a>
+            >open-sourced.</a
+          >
         </p>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
