@@ -107,6 +107,10 @@ p {
 .work-image {
   padding: 0px 60px;
   background: var(--secondary-color);
+
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .project-links {
