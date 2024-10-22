@@ -125,8 +125,8 @@ p {
 .logo {
   max-height: 50px;
 }
-nav {
-  padding: 20px;
+.navbar {
+  padding: 1rem 2rem;
 }
 nav ul {
   padding: 0;
